@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    display: grid;
+    background-color: #09a5ff;
+    height: 100vh;
+    padding: 0 40px;
+    color: white;
+    gap: 0;
+}
+
+.sidebar p {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.sidebar-items-top ul,
+.sidebar-items-bottom ul {
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.sidebar-items-top li,
+.sidebar-items-bottom li {
+    padding: 8px 0;
+}
