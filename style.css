@@ -57,7 +57,7 @@ ul {
     gap: 16px;
 }
 
-a {
+a, a:visited, a:link {
     color: inherit;
 }
 
